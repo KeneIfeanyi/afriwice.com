@@ -1,17 +1,38 @@
 import * as React from 'react'
 import Navbar from '../others/components'
-import { StaticImage } from 'gatsby-plugin-image'
-import AboutPage from '../others/componentabout.js'
+import AboutPage from '../others/about.js'
+import Service from '../others/services'
+import Img from '../others/img'
+import Keyboard from '../others/keyboard'
+import Logo from '../others/logos'
+import Img2 from '../others/img2'
+import Port from '../others/portfolio'
+import Price from '../others/pricing'
+import Contact from '../others/contact'
+import Foot from '../others/footer'
+import FAQSection from '../others/FAQ'
+import HomeImg from '../others/home'
 
-const NavHeading = () => {
+
+const Body = () => {
   return(
     <>
       <Navbar />
-      <StaticImage src='../images/hero-bg.jpg' alt='bg pic'/>
-      <AboutPage/>
+      <HomeImg/>
+      <AboutPage />
+      <Service />
+      <Img/>
+      <Keyboard/>
+      <Logo/>
+      <Img2/>
+      <Port/>
+      <Price/>
+      <FAQSection/>
+      <Contact/>
+      <Foot/>
     </>
   )
 }
 
-export default NavHeading;
+export default Body;
 
