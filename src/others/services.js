@@ -1,5 +1,8 @@
-import React from "react";
-import {servicewrapper, servicecontent, servicebody, servicebodymain, hrline, greenbody} from './components.module.css'
+import * as React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faCcAmazonPay} from '@fortawesome/free-brands-svg-icons'
+import {servicewrapper, servicecontent, servicebody, servicebodymain, hrline, greenbody, icon2} from 
+'./components.module.css'
 
 const Service = () => {
     return(
@@ -14,7 +17,7 @@ const Service = () => {
                     <div className={servicewrapper}>
                         <div className={servicecontent}>
                                 <div className={greenbody}>
-                                    <h1>ICONS</h1>
+                                    <FontAwesomeIcon icon={faCcAmazonPay} className={icon2}/>
                                     <h2>Lorem Ipsum</h2>
                                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                                 </div>
@@ -22,14 +25,14 @@ const Service = () => {
                         
                         <div className={servicecontent}>
                             <div className={greenbody}>
-                                <h1>ICONS</h1>
+                                <FontAwesomeIcon icon={faCcAmazonPay} className={icon2}/>
                                 <h2>Sed ut perspiciatis</h2>
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                             </div>
                         </div>
                         <div className={servicecontent}>
                             <div className={greenbody}>
-                                <h1>ICONS</h1>
+                                <FontAwesomeIcon icon={faCcAmazonPay} className={icon2}/>
                                 <h2>Sed ut perspiciatis</h2>
                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                             </div>
@@ -39,7 +42,7 @@ const Service = () => {
                     <div className={servicewrapper}>
                         <div className={servicecontent}>
                                 <div className={greenbody}>
-                                    <h1>ICONS</h1>
+                                    <FontAwesomeIcon icon={faCcAmazonPay} className={icon2}/>
                                     <h2>Nemo Enim</h2>
                                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                                         theyebd thiur updlion
@@ -49,7 +52,7 @@ const Service = () => {
 
                             <div className={servicecontent}>
                                 <div className={greenbody}>
-                                    <h1>ICONS</h1>
+                                    <FontAwesomeIcon icon={faCcAmazonPay} className={icon2}/>
                                     <h2>Dele cardo</h2>
                                     <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
                                 </div>
@@ -57,7 +60,7 @@ const Service = () => {
 
                             <div className={servicecontent}>
                                 <div className={greenbody}>
-                                    <h1>ICONS</h1>
+                                    <FontAwesomeIcon icon={faCcAmazonPay} className={icon2}/>
                                     <h2>Divera don</h2>
                                     <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur
                                      theyebd thiur updlion

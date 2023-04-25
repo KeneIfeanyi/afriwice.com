@@ -1,7 +1,9 @@
-import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react'
-import { Contact1, contactpage, contact, contactform, contacttext, input1, input2, input3, input4, input5 } from './components.module.css'
-// import { StaticImage } from 'gatsby-plugin-image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faLinkedin, faMapPinLine } from '@fortawesome/free-brands-svg-icons'
+import { Contact1, contactpage, contact, contactform, contacttext, input1, input2, input3, input4, input5, display } from 
+'./components.module.css'
+
 
 const Contact = () => {
     return(
@@ -22,9 +24,13 @@ const Contact = () => {
 
                 <div className={contact}>
                     <div className={ contactform }>
+                        <FontAwesomeIcon icon={faFacebook}/>
+                        <FontAwesomeIcon icon={faLinkedin}/>
+                        <FontAwesomeIcon icon={faMapPinLine}/>                    
+                        <FontAwesomeIcon icon={faFacebook}/>                          
                         <h1>Location</h1>
                         <p>A108 Adam Street, New York, NY 535022</p>
-
+                                                                        
                         <h1>Email</h1>
                         <p>info@example.com</p>
 
